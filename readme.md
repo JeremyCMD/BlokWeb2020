@@ -56,13 +56,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:**
 Ik heb al best lang niet met code gewerkt en ben er ook nooit echt een superheld in geweest. Ik begin dus sowieso met de blauwe piste, als dit goed gaat zou ik mogelijk ook de rode piste willen proberen, maar dit zie ik later pas.
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:**
 Het lijkt me best leuk om meer aandacht aan de surface laag te spenderen en hier meer over te leren.
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:**
 [De Volkskrant](https://www.volkskrant.nl/)
 
 **Screenshot(s):**
