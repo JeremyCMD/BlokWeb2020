@@ -38,15 +38,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+CSS ging best goed, ik heb nog moeite met het responsive maken en sommige elementen positioneren gaat ook nog niet zo goed.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
+![-screenshot(s) van hoe ver je bent-](images/Progressie.png)
 
 ### Verslag van meeting
 
