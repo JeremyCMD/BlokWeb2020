@@ -30,7 +30,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik heb de belangrijkste elementen op de hoofdpagina al vormgegeven en mis nog een paar kleine details. Het werkt alleen nog wel op mobiel formaat en ik moet het nog responsive maken.
+
+**Screenshot(s):**
+
+![-screenshot(s) van hoe ver je bent-](images/Progressie2.png)
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
 
 
 
@@ -43,11 +53,6 @@ CSS ging best goed, ik heb nog moeite met het responsive maken en sommige elemen
 **Screenshot(s):**
 
 ![-screenshot(s) van hoe ver je bent-](images/Progressie.png)
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
 
 
 ## Intake (week 1)
