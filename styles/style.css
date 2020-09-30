@@ -3,29 +3,37 @@
   box-sizing:border-box;
 }
 
-/* navigatie */
+/*****************/
+/* top navigatie */
+/*****************/
 
 header {
   display: flex;
 }
 
-header nav {
-  position: sticky;
+header nav:first-of-type {
+  position: fixed;
   top: 0;
+  background: white;
+  border-bottom: 1px solid #eaeaea;
+  overflow: hidden;
+  z-index: 999;
 }
 
-header nav ul {
+header nav:first-of-type ul {
   list-style-type: none;
   display: flex;
-  position: sticky;
+  padding-left: 1em;
+  overflow-x: auto;
+  width: 100vw;
 }
 
-header nav li {
-
+/* Om de scrollbar in de header weg te halen*/
+header nav:first-of-type ul::-webkit-scrollbar {
+  display: none;
 }
 
-header nav a {
-  color: black;
+header nav:first-of-type ul li a {
   text-decoration: none;
   outline: none;
   font-family: capitolium-2, serif;
@@ -34,58 +42,192 @@ header nav a {
   font-size: 1em;
   color: gray;
   margin-right: 3em;
-  padding-bottom: 1em;
+  margin-right: 2em;
+  padding-bottom: 0;
+  padding: auto;
+  white-space: nowrap;
 }
 
-header nav a.active {
+header nav:first-of-type a.active {
   color: black;
   cursor: default;
-  border-bottom: .3em solid black;
 }
 
-header nav a:hover:not(.active) {
+header nav:first-of-type a:hover:not(.active) {
   color: black;
 }
 
-header img {
+/********/
+/* logo */
+/********/
+
+header img:first-of-type {
   width: 30em;
   height: auto;
+  padding-top: 3.5em;
+  border-bottom: 1px solid #eaeaea;
 }
 
-/* first article */
+/********************/
+/* bottom navigatie */
+/********************/
 
-article {
+header nav:nth-of-type(2) {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 1px solid #eaeaea;
+  z-index: 999;
+}
+
+header nav:nth-of-type(2) ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+header nav:nth-of-type(2) ul li a {
+  color: black;
+  text-decoration: none;
+  outline: none;
+  font-family: roboto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 11px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav:nth-of-type(2) ul li a svg {
+  width: 2em;
+  height: 2em;
+}
+
+header nav:nth-of-type(2) a.active {
+  color: black;
+  cursor: default;
+}
+
+header nav:nth-of-type(2) a:hover:not(.active) {
+  color: black;
+}
+
+/****************/
+/* head article */
+/****************/
+
+body > article:first-of-type {
   position: relative;
+  margin-top: 1em;
+  width: 485px;
 }
 
-article img {
-  width: 480px;
+body > article:first-of-type img {
+  width: 100%;
+  max-width: 600px;
 }
 
-article h2 {
+article:first-of-type h2 {
   font-family: capitolium-2, serif;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 2.2em;
   position: absolute;
-  left: .2em;
+  line-height: 1.1em;
+  color: white;
+  left: 0;
+  right: .1em;
+  bottom: -.8em;
+  padding: .5em;
+  background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
 }
 
-article h3 {
+article:first-of-type h3 {
   font-family: roboto, sans-serif;
   text-transform: uppercase;
   position: absolute;
   font-size: 1em;
+  color: white;
+  padding: .5em;
 }
 
-article h3:first-of-type {
+article:first-of-type h3:first-of-type {
   font-weight: 700;
-  left: .5em;
-  top: -.5em;
+  left: .6em;
+  bottom: 7.2em;
 }
 
-article h3:nth-of-type(2){
-  font-weight: lighter;
-  left: 6em;
-  top: -.5em;
-  color: rgb(48,48,48);
+body article:first-of-type h3:nth-of-type(2){
+  font-weight: 100;
+  left: 5em;
+  bottom: 7.2em;
+}
+
+/****************/
+/* article list */
+/****************/
+
+article:nth-of-type(2) {
+
+}
+
+section h3 {
+  font-family: roboto, sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+section article {
+  display: flex;
+  border-bottom: 1px solid #eaeaea;
+}
+
+section h4 {
+  font-family: capitolium-2, serif;
+  font-weight: 100;
+  font-size: 1.1em;
+  margin: none;
+}
+
+section img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+
+/*************/
+/* article 2 */
+/*************/
+
+article:nth-of-type(3) {
+
+}
+
+.article2 img{
+  width: 355px;
+  height: 177.5px;
+  object-fit: cover;
+}
+
+article:nth-of-type(3) {
+
+}
+
+/*****************/
+/* media queries */
+/*****************/
+
+@media (min-width: 640px) {
+
+  header nav:nth-of-type(2) {
+    visibility: hidden;
+  }
+
 }

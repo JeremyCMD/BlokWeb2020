@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-CSS ging best goed, ik heb nog moeite met het responsive maken en sommige elementen positioneren gaat ook nog niet zo goed.
+CSS ging best goed, ik heb nog moeite met het responsive maken en sommige elementen positioneren gaat ook nog niet zo goed
 
 **Screenshot(s):**
 
