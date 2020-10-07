@@ -24,7 +24,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik heb een nieuwe zoekpagina gemaakt en al een klein beetje geprobeerd vorm te geven. Ook heb ik op de hoofdpagina nieuwe stijl elementen toegevoegd om dichterbij de website van de volkskrant te komen. Het is nog steeds niet responsive.
+
+**Screenshot(s):**
+
+![-screenshot(s) van hoe ver je bent-](images/Progressie3.png)
+
+![-screenshot van de zoekpagina-](images/Progressie3a.png)
 
 
 
@@ -37,11 +45,6 @@ Ik heb de belangrijkste elementen op de hoofdpagina al vormgegeven en mis nog ee
 **Screenshot(s):**
 
 ![-screenshot(s) van hoe ver je bent-](images/Progressie2.png)
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
 
 
 ## Voortgang 1 (week 3)
