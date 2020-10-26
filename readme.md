@@ -6,19 +6,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://css-tricks.com/snippets/css/complete-guide-grid/
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+3. https://css-tricks.com/almanac/properties/s/scroll-behavior/
+4. https://css-tricks.com/change-color-of-svg-on-hover/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik vond de css zelf erg goed gaan en heb er ook enorm veel van op gestoken. Ook heb ik eigenlijk voor de eerste keer echt plezier gehad in het werken aan de website. Waar ik nog wel wat moeite mee had was de html, ik ben begonnen met de html en toen de css gedaan. Ik merkte al wel snel dat om sommige dingen te laten werken (zoals bijvoorbeeld een goed grid) ik bepaalde dingen in html aan moest passen. Toen ik dit ging veranderen moest ik dan ook weer allemaal css aanpassen om het weer goed te laten werken. Dit was soms een beetje aankloten, maar voor de rest is het erg goed gegaan en heb ik er veel van opgestoken!
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![-screenshot van home pagina op mobiel-](images/Progressie4a.png)
+
+![-screenshot van home pagina op tablet-](images/Progressie4b.png)
+
+![-screenshot van home pagina op iets grotere tablet-](images/Progressie4c.png)
+
+![-screenshot van home pagina op desktop-](images/Progressie4d.png)
+
+![-screenshot van zoek pagina op mobiel-](images/Progressie4e.png)
+
+![-screenshot van zoek pagina op tablet-](images/Progressie4f.png)
 
 
 

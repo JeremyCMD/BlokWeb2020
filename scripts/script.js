@@ -1,17 +1,19 @@
 // JavaScript Document
 
-var activeHeader = document.querySelectorAll("header nav ul li");
+// Animatie voor de Header
 
-activeHeader.addEventListener("click", newActive);
+var oldHeader = document.querySelector("header nav:first-of-type li:first-of-type a");
+var newHeader = document.querySelector("header nav:first-of-type li:nth-of-type(2) a");
+
+newHeader.addEventListener("click", newActive);
+oldHeader.addEventListener("click", oldActive);
 
 function newActive() {
-  activeHeader.classList.toggle("active");
+  newHeader.classList.add("activeAnimation");
+  oldHeader.classList.remove("active");
 }
 
-window.addEventListener("scroll", visibleHeader)
-
-function visibleHeader() {
-  if(window.scrollY > 200){
-    
-  }
+function oldActive() {
+  oldHeader.classList.add("active");
+  newHeader.classList.remove("activeAnimation");
 }
